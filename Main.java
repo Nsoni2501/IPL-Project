@@ -12,6 +12,7 @@ public class Main {
 
 
         ArrayList<HashMap<String,String>> deliveriesList = convertCSVToMap("./assets/deliveries.csv");
+        System.out.println("XYZ");
 
 //  1. Number of matches played per year of all the years in IPL.
         matchesPlayed(matchesList);
